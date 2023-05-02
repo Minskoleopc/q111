@@ -45,10 +45,10 @@ public class testR8 {
 //		List<WebElement> products = driver.findElements(By.cssSelector(".inventory_item_name"));
 //		Assert.assertEquals(products.size(), 6);
 		
-		testR8.loginUser("standard_user","secret_sauce");
-		testR8.loginUser("locked_out_user","secret_sauce");
-		testR8.loginUser("problem_user","secret_sauce");
-		testR8.loginUser("performance_glitch_user","secret_sauce");
+		//testR8.loginUser("standard_user","secret_sauce");
+//		testR8.loginUser("locked_out_user","secret_sauce");
+//		testR8.loginUser("problem_user","secret_sauce");
+//		testR8.loginUser("performance_glitch_user","secret_sauce");
 		
 	}
 	

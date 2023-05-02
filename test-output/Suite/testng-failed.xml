@@ -2,12 +2,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+        <include name="logout"/>
+      </run>
+    </groups>
     <classes>
-      <class name="test.com.testR8">
+      <class name="test.com.testR13">
         <methods>
-          <include name="testcase1"/>
+          <include name="TestCaseThree"/>
+          <include name="TestCaseOne"/>
+          <include name="TestCaseTwo"/>
         </methods>
-      </class> <!-- test.com.testR8 -->
+      </class> <!-- test.com.testR13 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
